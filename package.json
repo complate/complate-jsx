@@ -1,0 +1,29 @@
+{
+  "name": "complate-jsx",
+  "version": "0.6.0",
+  "author": "FND",
+  "license": " Apache-2.0",
+  "homepage": "https://github.com/complate/complate-jsx",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/complate/complate-jsx.git"
+  },
+  "bugs": {
+    "url": "https://github.com/complate/complate-jsx/issues"
+  },
+  "scripts": {
+    "test": "eslint --cache *.js samples && echo ✓"
+  },
+  "dependencies": {
+    "babel-plugin-transform-react-jsx": "^6.24.1",
+    "babel-preset-es2015-rollup": "^3.0.0",
+    "eslint": "^3.19.0",
+    "eslint-config-fnd": "^1.1.1",
+    "eslint-plugin-react": "^7.0.1",
+    "rollup": "^0.41.6",
+    "rollup-plugin-babel": "^2.7.1",
+    "rollup-plugin-commonjs": "^8.0.2",
+    "rollup-plugin-node-resolve": "^3.0.0",
+    "wrollup": "^0.2.0"
+  }
+}
