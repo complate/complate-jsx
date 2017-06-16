@@ -15,12 +15,14 @@ let PKG = "node_modules/**";
 // * `options.externals` determines which modules to exclude from the bundle
 //   (e.g. `{ jquery: "jQuery" }` - the key represents the respective module
 //   name, the value refers to the corresponding global variable)
+// * `options.format`determines the bundle format (defaults to IIFE); cf.
+//   https://github.com/rollup/rollup/wiki/JavaScript-API#format
 // * `options.moduleName` determines the global variable to hold the entry
 //   point's exports (if any)
 // * `options.noTranspile` is a list of modules for which to skip transpilation
 //   (e.g. `["jquery"]`, perhaps due to an already optimized ES5 distribution)
 module.exports = function generateConfig(entryPoint, target, options = {}) {
-	let { moduleName, externals, extensions, noTranspile } = options;
+	let { extensions, externals, moduleName, noTranspile } = options;
 	let format = options.format || "iife";
 
 	let resolve = { jsnext: true };
