@@ -1,25 +1,12 @@
 {
   "scripts": {
-    "start": "wrollup --config",
+    "start": "faucet-js --watch --no-fingerprint --compact",
     "test": "eslint --cache --ext .js --ext .jsx *.js views && echo ✓",
-    "compile": "rollup --config"
-  },
-  "babel": {
-    "presets": [
-      "es2015-rollup"
-    ],
-    "plugins": [
-      [
-        "transform-react-jsx",
-        {
-          "pragma": "createElement"
-        }
-      ]
-    ]
+    "compile": "faucet-js --compact"
   },
   "dependencies": {},
   "devDependencies": {
-    "complate-jsx": "^1.0.0",
+    "complate-jsx": "^0.7.0",
     "complate-stream": "^0.9.6"
   }
 }
