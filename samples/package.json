@@ -1,8 +1,8 @@
 {
   "scripts": {
-    "start": "faucet-js --watch --no-fingerprint --compact",
+    "start": "npm run compile -- --watch",
     "test": "eslint --cache --ext .js --ext .jsx *.js views && echo ✓",
-    "compile": "faucet-js --compact"
+    "compile": "faucet-js --no-fingerprint --compact"
   },
   "dependencies": {},
   "devDependencies": {
