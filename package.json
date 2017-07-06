@@ -12,7 +12,7 @@
     "url": "https://github.com/complate/complate-jsx/issues"
   },
   "scripts": {
-    "test": "eslint --cache *.js samples && echo ✓"
+    "test": "eslint --cache --ext .js --ext .jsx *.js samples && echo ✓"
   },
   "dependencies": {
     "babel-plugin-transform-react-jsx": "^6.24.1",
