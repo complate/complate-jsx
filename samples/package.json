@@ -2,11 +2,11 @@
   "scripts": {
     "start": "npm run compile -- --watch",
     "test": "eslint --cache --ext .js --ext .jsx *.js views && echo ✓",
-    "compile": "faucet-js --no-fingerprint --compact"
+    "compile": "faucet --no-fingerprint --compact"
   },
   "dependencies": {},
   "devDependencies": {
-    "complate-jsx": "^0.7.0",
+    "complate-jsx": "^0.7.1",
     "complate-stream": "^0.9.6"
   }
 }

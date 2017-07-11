@@ -1,6 +1,6 @@
 {
   "name": "complate-jsx",
-  "version": "0.7.0",
+  "version": "0.7.1",
   "author": "FND",
   "license": " Apache-2.0",
   "homepage": "https://github.com/complate/complate-jsx",
@@ -19,6 +19,6 @@
     "eslint": "^4.1.1",
     "eslint-config-fnd": "^1.1.1",
     "eslint-plugin-react": "^7.1.0",
-    "faucet-pipeline-js": "^0.9.8"
+    "faucet-pipeline-js": "^0.9.12"
   }
 }
