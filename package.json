@@ -1,24 +1,24 @@
 {
-  "name": "complate-jsx",
-  "version": "0.7.1",
-  "author": "FND",
-  "license": " Apache-2.0",
-  "homepage": "https://github.com/complate/complate-jsx",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/complate/complate-jsx.git"
-  },
-  "bugs": {
-    "url": "https://github.com/complate/complate-jsx/issues"
-  },
-  "scripts": {
-    "test": "eslint --cache --ext .js --ext .jsx *.js samples && echo ✓"
-  },
-  "dependencies": {
-    "babel-plugin-transform-react-jsx": "^6.24.1",
-    "eslint": "^4.1.1",
-    "eslint-config-fnd": "^1.1.1",
-    "eslint-plugin-react": "^7.1.0",
-    "faucet-pipeline-js": "^0.9.12"
-  }
+	"name": "complate-jsx",
+	"version": "0.7.1",
+	"author": "FND",
+	"license": " Apache-2.0",
+	"homepage": "https://github.com/complate/complate-jsx",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/complate/complate-jsx.git"
+	},
+	"bugs": {
+		"url": "https://github.com/complate/complate-jsx/issues"
+	},
+	"scripts": {
+		"test": "eslint --cache --ext .js --ext .jsx *.js samples && echo ✓"
+	},
+	"dependencies": {
+		"babel-plugin-transform-react-jsx": "^6.24.1",
+		"eslint": "^4.1.1",
+		"eslint-config-fnd": "^1.1.1",
+		"eslint-plugin-react": "^7.1.0",
+		"faucet-pipeline-js": "^0.9.12"
+	}
 }
