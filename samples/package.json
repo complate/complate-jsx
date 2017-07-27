@@ -1,12 +1,12 @@
 {
-  "scripts": {
-    "start": "npm run compile -- --watch",
-    "test": "eslint --cache --ext .js --ext .jsx *.js views && echo ✓",
-    "compile": "faucet --no-fingerprint --compact"
-  },
-  "dependencies": {},
-  "devDependencies": {
-    "complate-jsx": "^0.8.0",
-    "complate-stream": "^0.9.7"
-  }
+	"scripts": {
+		"start": "npm run compile -- --watch",
+		"test": "eslint --cache --ext .js --ext .jsx *.js views && echo ✓",
+		"compile": "faucet --no-fingerprint --compact"
+	},
+	"dependencies": {},
+	"devDependencies": {
+		"complate-jsx": "^0.8.0",
+		"complate-stream": "^0.9.7"
+	}
 }
