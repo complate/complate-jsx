@@ -6,7 +6,7 @@
   },
   "dependencies": {},
   "devDependencies": {
-    "complate-jsx": "^0.7.1",
-    "complate-stream": "^0.9.6"
+    "complate-jsx": "^0.8.0",
+    "complate-stream": "^0.9.7"
   }
 }
