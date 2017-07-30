@@ -16,10 +16,9 @@
 	},
 	"dependencies": {
 		"babel-plugin-transform-react-jsx": "^6.24.1",
-		"eslint": "^4.3.0",
-		"eslint-config-fnd": "^1.1.1",
+		"eslint-config-fnd": "^1.2.0",
 		"eslint-plugin-react": "^7.1.0",
-		"faucet-pipeline-js": "^0.12.1"
+		"faucet-pipeline-js": "^0.12.3"
 	},
 	"devDependencies": {
 		"release-util-fnd": "^1.0.2"
